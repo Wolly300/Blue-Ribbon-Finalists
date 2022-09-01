@@ -32,6 +32,34 @@ namespace Blue_Ribbon_Finalists
             _ItemCount++;
         }
 
+        public String EntryName
+        {
+            get { return _EntryName; }
+            set { _EntryName = value; }
+        }
 
+        public string State 
+        { 
+            get { return _State; }
+            set { _State = value; }
+        }
+        
+        public String Category
+        {
+            get { return _Category; }
+            set { _Category = value; }
+        }
+
+        public String PrepTime
+        {
+            get { return _PrepTime; }
+            set { _PrepTime = value; }
+        }
+
+        public Image Photo
+        {
+            get { return _Photo; }
+            set { _Photo = value; }
+        }
     }
 }
